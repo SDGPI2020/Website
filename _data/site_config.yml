@@ -67,7 +67,7 @@ disclaimer:
   phase: ''
   message: ''
 email_contacts:
-  questions: test@example.com
+  questions: sdgpi@gmail.com
   suggestions: test@example.com
   functional: test@example.com
 environment: staging
@@ -76,7 +76,7 @@ footer_language_toggle: none
 footer_menu:
   - path: /contact-us
     translation_key: menu.contact_us
-  - path: 'https://twitter.com/MyTwitterAccount'
+  - path: 'https://twitter.com/SDGpolicy'
     translation_key: general.twitter
   - path: 'https://facebook.com/MyFacebookAccount'
     translation_key: general.facebook
@@ -89,21 +89,24 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Lorem ipsum
+  - title: SDGPI
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-      cursus est sed dapibus.
+      Based at the School of Global Policy and Strategy at UC San Diego. 
+      We use the UN Sustainable Development Goals (SDGs) to 
+      inform evidence-based policy solutions.
     include: ''
     button_label: Read more
-    button_link: 'https://example.com'
+    button_link: 'http://sdgpolicyinitiative.org/'
     rule_color: ''
-  - title: Nam vestibulum
+  - title: SDSN
     content: |
-      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
-      interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
+      SDSN mobilizes global scientific and technological expertise to promote 
+      practical solutions for sustainable development, including the 
+      implementation of the Sustainable Development Goals (SDGs) and the Paris 
+      Climate Agreement. 
     include: ''
     button_label: Read more
-    button_link: 'https://example.com'
+    button_link: 'https://www.unsdsn.org/'
     rule_color: ''
 frontpage_goals_grid:
   title: Our data for Sustainable Development Goal indicators

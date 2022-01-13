@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/Website/assets/css/style.css?v=20220110195706">
+        <link rel="stylesheet" href="/Website/assets/css/style.css?v=20220113223800">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -766,7 +766,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('embedded_feature_footer', "");
+        var currentValue = normalizeCurrentValue('embedded_feature_footer', "Data Source: US Census American Community Survey 5-Year Estimate 2019");
         var propertyEditor = editor.getEditor('root.embedded_feature_footer');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -780,7 +780,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('embedded_feature_html', "");
+        var currentValue = normalizeCurrentValue('embedded_feature_html', "<iframe width=\"1123.4\" height=\"800\" title=\"Proportion in Poverty in San Diego\" src=\"https://sdgpi2020.github.io/Poverty/#9/\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>");
         var propertyEditor = editor.getEditor('root.embedded_feature_html');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -794,7 +794,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('embedded_feature_tab_title', "");
+        var currentValue = normalizeCurrentValue('embedded_feature_tab_title', "Map");
         var propertyEditor = editor.getEditor('root.embedded_feature_tab_title');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -808,7 +808,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('embedded_feature_title', "");
+        var currentValue = normalizeCurrentValue('embedded_feature_title', "Proportion of the Population in Poverty in San Diego by Census Tract");
         var propertyEditor = editor.getEditor('root.embedded_feature_title');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1204,12 +1204,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/Website/assets/js/sdg.js?v=20220110195706'></script>
+<script src='/Website/assets/js/sdg.js?v=20220113223800'></script>
 
 
     
     
-    <script src="/Website/assets/js/custom.js?v=20220110195706"></script><script>
+    <script src="/Website/assets/js/custom.js?v=20220113223800"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

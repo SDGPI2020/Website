@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/Website/assets/css/style.css?v=20220501190302">
+        <link rel="stylesheet" href="/Website/assets/css/style.css?v=20220502185508">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -766,7 +766,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDG_INDICATOR', "Indicator 3.4.1: Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease\n  Due to inaccessibility of mortality rate at the Census Tract level, prevalence of cardiovascular disease, \n  cancer, diabetes, and chronic respiratory diseases was used.");
+        var currentValue = normalizeCurrentValue('SDG_INDICATOR', "Indicator 3.4.1: Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease");
         var propertyEditor = editor.getEditor('root.SDG_INDICATOR');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -780,7 +780,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDG_SERIES_DESCR', "");
+        var currentValue = normalizeCurrentValue('SDG_SERIES_DESCR', "Due to inaccessibility of mortality rate at the Census Tract level, prevalence of cardiovascular disease,  cancer, diabetes, and chronic respiratory diseases was used.");
         var propertyEditor = editor.getEditor('root.SDG_SERIES_DESCR');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1250,7 +1250,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/SDGPI2020/data/commit/97b3dae0c57a20a5e0274b6562078b8b7ef80333");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/SDGPI2020/data/commit/bd54e35d82c0755fe4d78628409102287c13b018");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1408,12 +1408,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/Website/assets/js/sdg.js?v=20220501190302'></script>
+<script src='/Website/assets/js/sdg.js?v=20220502185508'></script>
 
 
     
     
-    <script src="/Website/assets/js/custom.js?v=20220501190302"></script><script>
+    <script src="/Website/assets/js/custom.js?v=20220502185508"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

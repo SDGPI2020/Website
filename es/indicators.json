@@ -1071,11 +1071,11 @@
         },
         {
           "id": "9-c-1",
-          "title": "Proporción de la población con cobertura de red móvil, desglosada por tecnología",
+          "title": "Broadband Access Rate (%)",
           "description": "",
           "keywords": "",
           "href": "/Website/es/9-c-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },

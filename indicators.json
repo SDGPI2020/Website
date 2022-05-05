@@ -1071,11 +1071,11 @@
         },
         {
           "id": "9-c-1",
-          "title": "Proportion of population covered by a mobile network, by technology",
+          "title": "Broadband Access Rate (%)",
           "description": "",
           "keywords": "",
           "href": "/Website/9-c-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },

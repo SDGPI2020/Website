@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/Website/assets/css/style.css?v=20220526194939">
+        <link rel="stylesheet" href="/Website/assets/css/style.css?v=20220920173510">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -910,7 +910,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('STAT_CONC_DEF', "## Definition:\n\n  Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease.\n  Probability of dying between the ages of 30 and 70 years from cardiovascular diseases, cancer, diabetesor \n  chronic respiratory diseases, defined as the per cent of 30-year-old-people who would die before their 70th \n  birthday from cardiovascular disease, cancer, diabetes, or chronic respiratory disease, assuming that s/he \n  would experience current mortality rates at every age and s/he would not die from any \n  other causeof death (e.g., injuries or HIV/AIDS). \n\n## Concepts:\n\n  \"The indicator is based on where the population lives, and not where they work or go to school, etc.\n  When there are multiple operators offering the service, the maximum population number covered should\n  be reported. Coverage should refer to LTE, broadband (3G) and narrowband (2G) mobile-cellular\n  technologies and include: - 2G mobile population coverage: Mobile networks with access to data communications (e.g. Internet) at\n  downstream speeds below 256 Kbit/s. This includes mobile-cellular technologies such as GPRS,\n  CDMA2000 1x and most EDGE implementations. The indicator refers to the theoretical ability of\n  subscribers to use non-broadband speed mobile data services, rather than the number of active users of\n  such services.\n  - 3G population coverage: refers to the percentage of inhabitants that are within range of at least a 3G\n  mobile-cellular signal, irrespective of whether or not they are subscribers. This is calculated by dividing\n  the number of inhabitants that are covered by at least a 3G mobile-cellular signal by the total population\n  and multiplying by 100. It excludes people covered only by GPRS, EDGE or CDMA 1xRTT.\n  - LTE population coverage: Refers to the percentage of inhabitants that live within range of LTE/LTE-\n  Advanced, mobile WiMAX/WirelessMAN or other more advanced mobile-cellular networks, irrespective\n  of whether or not they are subscribers. This is calculated by dividing the number of inhabitants that are\n  covered by the previously mentioned mobile-cellular technologies by the total population and multiplying\n  by 100. It excludes people covered only by HSPA, UMTS, EV-DO and previous 3G technologies, and also\n  excludes fixed WiMAX coverage.\n  As technologies evolve and as more and more countries will deploy and commercialize more advanced\n  mobile-broadband networks (5G etc.), the indicator will include further breakdo");
+        var currentValue = normalizeCurrentValue('STAT_CONC_DEF', "## Concepts:\n\n  \"The indicator is based on where the population lives, and not where they work or go to school, etc.\n  When there are multiple operators offering the service, the maximum population number covered should\n  be reported. Coverage should refer to LTE, broadband (3G) and narrowband (2G) mobile-cellular\n  technologies and include: - 2G mobile population coverage: Mobile networks with access to data communications (e.g. Internet) at\n  downstream speeds below 256 Kbit/s. This includes mobile-cellular technologies such as GPRS,\n  CDMA2000 1x and most EDGE implementations. The indicator refers to the theoretical ability of\n  subscribers to use non-broadband speed mobile data services, rather than the number of active users of\n  such services.\n  - 3G population coverage: refers to the percentage of inhabitants that are within range of at least a 3G\n  mobile-cellular signal, irrespective of whether or not they are subscribers. This is calculated by dividing\n  the number of inhabitants that are covered by at least a 3G mobile-cellular signal by the total population\n  and multiplying by 100. It excludes people covered only by GPRS, EDGE or CDMA 1xRTT.\n  - LTE population coverage: Refers to the percentage of inhabitants that live within range of LTE/LTE-\n  Advanced, mobile WiMAX/WirelessMAN or other more advanced mobile-cellular networks, irrespective\n  of whether or not they are subscribers. This is calculated by dividing the number of inhabitants that are\n  covered by the previously mentioned mobile-cellular technologies by the total population and multiplying\n  by 100. It excludes people covered only by HSPA, UMTS, EV-DO and previous 3G technologies, and also\n  excludes fixed WiMAX coverage.\n  As technologies evolve and as more and more countries will deploy and commercialize more advanced\n  mobile-broadband networks (5G etc.), the indicator will include further breakdo");
         var propertyEditor = editor.getEditor('root.STAT_CONC_DEF');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1212,7 +1212,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/SDGPI2020/data/commit/9f95770b43dd638579b9b1c3e49d5ba57f5a0b4f");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/SDGPI2020/data/commit/1efb1e35c6adba9f3135c36bf68c8e95b74d2ae1");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1370,12 +1370,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/Website/assets/js/sdg.js?v=20220526194939'></script>
+<script src='/Website/assets/js/sdg.js?v=20220920173510'></script>
 
 
     
     
-    <script src="/Website/assets/js/custom.js?v=20220526194939"></script><script>
+    <script src="/Website/assets/js/custom.js?v=20220920173510"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
